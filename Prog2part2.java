@@ -10,11 +10,14 @@ import java.util.Scanner;
 
 public class Prog2part2 {
 	public static void main(String[] args) {
+	    //Variables
 	    int width = 0, height = 0;
 	    char symbol;
-	    
+		
+	    //Objects
 	    Scanner sc = new Scanner(System.in);
-	    
+
+	    //Get user input
 	    System.out.print("Enter width: ");
 	    width = sc.nextInt();
 	    
@@ -26,7 +29,7 @@ public class Prog2part2 {
 	    
 	    while(height > 0){
 	      //Set this variable because we need to keep the orig val of width  
-        int i = width;
+              int i = width;
 	        
 	      while(i > 0){
 	          System.out.print(symbol);
