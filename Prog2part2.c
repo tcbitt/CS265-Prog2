@@ -8,7 +8,7 @@ Uses nested while loops to print a box of size width x height and fill it with t
 #include <stdio.h>
 
 int main(){
-    int width, height;
+    int width = 0, height = 0;
     char symbol;
     
     printf("Enter width: ");
