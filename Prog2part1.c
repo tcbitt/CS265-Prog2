@@ -64,7 +64,7 @@ int main(){
     printf("Number of grades: %d", totalGrades);
     printf("\nTotal points: %d", totalPoints);
     printf("\nTotal possible: %d", totalPossible);
-    printf("\nAverage %.3f", average);
+    printf("\nAverage: %.3f", average);
     printf("\nGrade: %c", letterGrade);
     printf("\nPerfect scores: %d", perfectScores);
     
